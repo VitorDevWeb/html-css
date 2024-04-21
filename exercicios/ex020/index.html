@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Pseudo-classes</title>
+    <style>
+/*         div{
+            display: inline-block; /* Serve para alinhar as div 
+            background-color: lightgray;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            margin: 2px;
+            border: 1px solid black;
+        }
+    
+        div:hover{
+            background-color: yellow;
+            color: rgb(0, 136, 255);
+            
+        }
+    */
+    body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    div:hover{
+            color: rgb(255, 0, 0);
+        }
+    div:hover > p{
+        display: block;
+        color: azure;
+        background-color: brown;
+    }
+    div > p{
+        display: none;
+    }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o ou sobre o texto abaixo</p>
+    <div>
+        Pass o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    
+</body>
+</html>

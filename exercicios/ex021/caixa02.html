@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: blanchedalmond;
+            margin: 0;
+
+        }
+        header{
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(116, 116, 116);
+            padding: 10px;
+            font-weight: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.568);
+            border-radius: 5px 30px;
+        }
+        article{
+            background-color: gray;
+            padding: 1px;
+        }
+        article > aside{
+            background-color: rgb(128, 128, 128);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            
+        }
+        footer > p{
+            margin: 0;
+        }
+
+        aside > p{
+            background-color: rgb(65, 65, 65);
+            color: rgb(255, 255, 255);
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: rgba(255, 0, 0, 0.699);
+            border-radius: 50%;
+            margin: 5px;
+        }
+        #bola:hover{
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link01</a>
+            <a href="#">Link02</a>
+            <a href="#">Link03</a>
+            <a href="#">Link04</a>
+            <a href="#">Link05</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>Notícias do Brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed cumque voluptatibus animi veritatis sit. Itaque sint optio nemo tenetur minima voluptate necessitatibus, architecto sit corrupti cumque quibusdam nam suscipit est.</p>
+            <aside>
+                <p>Artigo escrito por Vitor de Almeida Ferro</p>
+            </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Vitor</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

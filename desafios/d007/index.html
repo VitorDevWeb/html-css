@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Trabalhando com imagem flexível</h1>
+    <p>Está imagem abaixo tem variações de tamanho ao ir abrindo ela, faça o texte e veja que legal.&#x1F970</p>
+    <picture>
+        <source media="(min-width: 800px)" srcset="imagem/paisagem-g.png" type="image/png">
+        <source media="(min-width: 600px)" srcset="imagem/paisagem-m.png" type="image/png">
+        <source media="(max-width: 400px) and" srcset="imagem/paisagem-p.png" type="image/png">
+        <img src="imagem/paisagem-p.png" alt="imagem pequena">
+    </picture>
+    <p>Legal ver a imagem em diversas modificações.
+        parabéns continue treinando!.
+    </p>
+    
+</body>
+</html>
