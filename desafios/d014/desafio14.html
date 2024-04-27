@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        body{
+            background-color: rgb(61, 36, 5);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 300px;
+            padding: 20px;
+        }
+        tr, th{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Boletim do Aluno</caption>
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Disciplinas</th>
+                <th scope="colgroup" colspan="9">Notas</th>
+                
+                <th>Média</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                
+                <th scope="rowgroup" rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td>0.0</td>
+                
+            </tr>
+            <tr>
+                <td>Física</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Média Exatas</th>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+</html>
